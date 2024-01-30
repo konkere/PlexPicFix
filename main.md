@@ -52,7 +52,7 @@ NetHandle:  NET-108-138-0-0-1
 
 ![](/screenshots/cf_mark.png)
 
-Адреса не статичные, могут и будут со временем меняться. Актуальный список адресов находится [на сайте CloudFront](https://d7uri8nf7uskq.cloudfront.net/tools/list-cloudfront-ips). Для автоматического обновления списков я написал себе [скриптик](https://github.com/konkere/pyRouterOSviaSSH/blob/main/mikrotik_addrlist_upd.py) (работает на [Python](https://ru.wikipedia.org/wiki/Python) в связке с Mikrotik [RouterOS](https://ru.wikipedia.org/wiki/MikroTik#RouterOS), гвоздями ничего не прибивал, можно использовать и для других списков, не только CloudFront).
+Адреса не статичные, могут и будут со временем меняться. Актуальный список адресов находится [на сайте CloudFront](https://d7uri8nf7uskq.cloudfront.net/tools/list-cloudfront-ips). Для автоматического обновления списков я написал себе [скриптик](https://github.com/konkere/pyROSomnia/blob/main/mikrotik_addrlist_upd.py) (работает на [Python](https://ru.wikipedia.org/wiki/Python) в связке с Mikrotik [RouterOS](https://ru.wikipedia.org/wiki/MikroTik#RouterOS), гвоздями ничего не прибивал, можно использовать и для других списков, не только CloudFront).
 
 #### 2.4.2. BGP
 путём организации маршрутизации средствами [BGP](https://ru.wikipedia.org/wiki/Border_Gateway_Protocol) (если роутер поддерживает работу с этим протоколом) и направлении трафика на эти адреса через туннель VPN.
